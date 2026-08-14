@@ -1,0 +1,62 @@
+export const projects = [
+  {
+    id: "leftover-food",
+    title: "LeftOver Food Sharing",
+    category: "Mobile Application • Machine Learning",
+    description: "A mobile application designed to connect people with surplus food and help reduce food waste.",
+    technologies: ["Flutter", "Firebase", "Machine Learning"],
+    image: null,
+    problem: "Significant amounts of perfectly good food go to waste daily while many struggle with food insecurity. Connecting those with surplus food to those in need is often inefficient or lacks a centralized platform.",
+    solution: "Developed a cross-platform mobile application that provides a centralized platform for food sharing. Integrated machine learning capabilities to verify food freshness and quality before sharing.",
+    role: "Led the development of the mobile application and integrated the AI-powered freshness verification service. Implemented user authentication, data management, and the overall UI/UX.",
+    challenges: "Handling real-time synchronization between the mobile app and the database. Optimizing the AI model for on-device or fast API-based inference to ensure smooth user experience.",
+    outcome: "Successfully created a functional prototype capable of handling user interactions, food listings, and quality checks.",
+    github: "",
+    demo: ""
+  },
+  {
+    id: "brain-tumor",
+    title: "Brain Tumor Segmentation",
+    category: "Machine Learning • Computer Vision",
+    description: "Worked on brain tumor segmentation from MRI scans using machine learning techniques.",
+    technologies: ["Python", "Machine Learning", "MRI", "Image Processing"],
+    image: null,
+    problem: "Manual segmentation of brain tumors from MRI scans is time-consuming and prone to human error, which can delay diagnosis and treatment planning.",
+    solution: "Developed a machine learning workflow to automatically segment tumor regions from MRI imagery, assisting in faster and more consistent analysis.",
+    role: "Worked on the data preprocessing pipeline and model training. Handled image augmentation and evaluation of segmentation masks.",
+    challenges: "Dealing with class imbalance in medical datasets and fine-tuning model hyperparameters to achieve satisfactory boundary detection.",
+    outcome: "Built a model pipeline capable of generating preliminary segmentation masks from raw MRI data.",
+    github: "",
+    demo: ""
+  },
+  {
+    id: "cyber-abuse",
+    title: "Roman Urdu Cyber Abuse Detection",
+    category: "Machine Learning • NLP",
+    description: "Developed a machine learning system for detecting cyber abuse in Roman Urdu text.",
+    technologies: ["Python", "Machine Learning", "NLP", "Text Classification"],
+    image: null,
+    problem: "Cyber abuse in regional languages and scripts, specifically Roman Urdu, often bypasses standard English-based moderation filters.",
+    solution: "Created a custom Natural Language Processing (NLP) pipeline and machine learning model specifically trained to identify abusive patterns in Roman Urdu text.",
+    role: "Collected and preprocessed a specialized dataset of Roman Urdu text. Engineered text features and trained classification models.",
+    challenges: "Handling the vast variations in spelling and slang inherent to Roman Urdu. Ensuring the model generalized well to unseen text without high false-positive rates.",
+    outcome: "Delivered a classification model demonstrating strong capability in flagging abusive Roman Urdu content.",
+    github: "",
+    demo: ""
+  },
+  {
+    id: "logistic-regression",
+    title: "Binary Classification with Logistic Regression",
+    category: "Machine Learning",
+    description: "Implemented and evaluated Logistic Regression models for binary classification tasks.",
+    technologies: ["Python", "Scikit-learn", "Machine Learning"],
+    image: null,
+    problem: "Understanding foundational machine learning concepts and how baseline models perform on standard datasets before moving to complex architectures.",
+    solution: "Implemented robust binary classification pipelines using Logistic Regression, including proper data scaling, cross-validation, and metric evaluation.",
+    role: "Developed the entire pipeline from data ingestion to evaluation. Analyzed model coefficients to understand feature importance.",
+    challenges: "Ensuring proper handling of categorical variables and scaling numerical features to optimize gradient descent convergence.",
+    outcome: "Created a reusable template for baseline binary classification and established a strong understanding of model evaluation metrics.",
+    github: "",
+    demo: ""
+  }
+];
