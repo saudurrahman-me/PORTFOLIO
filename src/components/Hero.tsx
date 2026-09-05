@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full grid md:grid-cols-2 gap-12 items-center z-10">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -35,14 +35,14 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-4">
-            <a 
+            <a
               href="#projects"
               className="px-6 py-3 bg-white text-black font-medium rounded-lg hover:bg-gray-200 transition-colors flex items-center gap-2"
             >
               View My Work <ArrowRight size={18} />
             </a>
-            <a 
-              href="/Saud_Ur_Rahman_Resume.pdf"
+            <a
+              href="/Saud_Ur_Rahman_Resume1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-white/5 text-white border border-white/10 font-medium rounded-lg hover:bg-white/10 transition-colors flex items-center gap-2"
@@ -53,13 +53,13 @@ export default function Hero() {
 
           <div className="pt-4">
             <a href="#contact" className="text-sm text-gray-400 hover:text-white transition-colors inline-flex items-center gap-1 group">
-              Let&apos;s connect 
+              Let&apos;s connect
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </a>
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.2 }}
