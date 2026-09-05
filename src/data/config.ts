@@ -7,7 +7,7 @@ export const siteConfig = {
   location: "Swabi, Khyber Pakhtunkhwa, Pakistan",
   socialLinks: {
     github: "https://github.com/saudurrahman-me",
-    linkedin: "www.linkedin.com/in/saud-ur-rahman-ba14533a0",
+    linkedin: "https://www.linkedin.com/in/saud-ur-rahman-ba14533a0/",
     email: "mailto:saud.k478988@gmail.com"
   }
 };
