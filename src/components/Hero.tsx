@@ -42,7 +42,7 @@ export default function Hero() {
               View My Work <ArrowRight size={18} />
             </a>
             <a
-              href="/Saud_Ur_Rahman_Resume1.pdf"
+              href="/Saud_Ur_Rahman_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-white/5 text-white border border-white/10 font-medium rounded-lg hover:bg-white/10 transition-colors flex items-center gap-2"

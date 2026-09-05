@@ -25,7 +25,7 @@ export default function Resume() {
           </p>
 
           <a
-            href="/Saud_Ur_Rahman_Resume1.pdf"
+            href="/Saud_Ur_Rahman_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl transition-all shadow-lg shadow-blue-900/20"

@@ -50,7 +50,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="/Saud_Ur_Rahman_Resume1.pdf"
+            href="/Saud_Ur_Rahman_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 text-sm font-medium bg-blue-600/10 text-blue-400 border border-blue-500/30 rounded-md hover:bg-blue-600/20 hover:border-blue-500/50 transition-all"
@@ -83,7 +83,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="/Saud_Ur_Rahman_Resume1.pdf"
+            href="/Saud_Ur_Rahman_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 text-center font-medium bg-blue-600/10 text-blue-400 border border-blue-500/30 rounded-md hover:bg-blue-600/20 transition-all"
