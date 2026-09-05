@@ -24,12 +24,13 @@ export default function Education() {
           className="bg-[#121212] p-8 md:p-10 rounded-2xl border border-white/5 relative overflow-hidden"
         >
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/5 rounded-full blur-[80px] pointer-events-none" />
-          
+
           <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 z-10 relative">
             <div>
               <h3 className="text-2xl font-bold text-white mb-1">Bachelor of Science in Software Engineering</h3>
               <div className="text-xl text-gray-400">COMSATS University Islamabad</div>
               <div className="text-gray-500 mt-1">Abbottabad Campus</div>
+              <div className="text-gray-500 mt-1">Graduated 2026</div>
             </div>
             <div className="mt-6 md:mt-0 p-4 bg-white/5 rounded-xl border border-white/10 shrink-0">
               <BookOpen className="text-blue-400" size={32} />

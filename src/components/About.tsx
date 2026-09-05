@@ -23,7 +23,7 @@ export default function About() {
             viewport={{ once: true }}
           >
             <p className="mb-6 text-white font-medium">
-              I&apos;m a Software Engineering student at COMSATS University Islamabad, Abbottabad Campus, with a strong interest in software development and machine learning.
+              I&apos;m a Software Engineer and Machine Learning enthusiast with a Bachelor of Science in Software Engineering from COMSATS University Islamabad, Abbottabad Campus.
             </p>
             <p>
               I enjoy building practical applications and exploring how intelligent systems can solve real-world problems. My background covers a mix of core software engineering principles and hands-on experience with modern tools.
@@ -36,7 +36,7 @@ export default function About() {
             viewport={{ once: true }}
           >
             <p className="mb-6">
-              Throughout my academic journey and my recent Machine Learning Internship, I&apos;ve developed a solid foundation in Python, Java, and Flutter. I&apos;ve worked on building backend APIs, training machine learning models, and connecting them to robust frontend interfaces.
+              During my degree and professional experience, I&apos;ve developed a solid foundation in Python, Java, and Flutter. I&apos;ve worked on building backend APIs, training machine learning models, and connecting them to robust frontend interfaces.
             </p>
             <p>
               I am driven by the intersection of reliable software architecture and data-driven intelligence, constantly looking to apply my skills to ambitious technical challenges.

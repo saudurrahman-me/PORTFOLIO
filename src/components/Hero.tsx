@@ -31,8 +31,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg text-gray-400 max-w-lg leading-relaxed">
-            Software Engineering student with hands-on experience in Machine Learning, Python, Java, Flutter, and backend application development.
-          </p>
+            Software Engineer with hands-on experience in Machine Learning, Python, Java, Flutter, and backend application development.          </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-4">
             <a
