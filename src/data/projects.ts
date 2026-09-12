@@ -58,5 +58,20 @@ export const projects = [
     outcome: "Created a reusable template for baseline binary classification and established a strong understanding of model evaluation metrics.",
     github: "",
     demo: ""
+  },
+  {
+    id: "anti-search-engine",
+    title: "AntiSearch Engine",
+    category: "Full Stack • Information Retrieval • AI",
+    description: "A fully-featured, portfolio-ready search engine blending traditional keyword algorithms with state-of-the-art AI semantic embeddings.",
+    technologies: ["Python", "FastAPI", "React", "FAISS", "Machine Learning", "Docker"],
+    image: null,
+    problem: "Traditional keyword search struggles with conceptual queries, while purely semantic search can miss exact keyword matches. A robust search engine needs both.",
+    solution: "Built a Hybrid Search pipeline combining BM25, Semantic Context matching (SentenceTransformers/FAISS), and PageRank using Reciprocal Rank Fusion (RRF). Included an asynchronous web crawler to index data.",
+    role: "Developed the entire pipeline from the web crawler to the FastAPI backend and the React frontend. Implemented the hybrid search algorithms and vector indexing.",
+    challenges: "Optimizing vector dot-product similarity lookups for sub-50ms response times and seamlessly fusing scores from drastically different algorithms.",
+    outcome: "Created a lightning-fast hybrid search engine whose semantic pipeline outperforms standard exact-keyword lookups on conceptual searches.",
+    github: "",
+    demo: ""
   }
 ];
